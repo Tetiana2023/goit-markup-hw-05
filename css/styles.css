@@ -145,8 +145,8 @@ body {
 	letter-spacing: 0.02em;
 	text-decoration: none;
 	fill: var(--primery-text-color);
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 2000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contakts .item + .item {
 	margin-left: 50px;
@@ -391,6 +391,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -398,6 +399,7 @@ body {
 }
 .social-icon {
 	fill: var(--border-clients);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover svg,
 .social-link:focus svg {
@@ -425,6 +427,12 @@ body {
 	border-radius: 4px;
 	border: 1px solid var(--border-clients);
 	fill: var(--border-clients);
+	
+	transition: border-color 205ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon {
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -459,6 +467,8 @@ body {
 	font-size: 14px;
 	line-height: 1.71;
 	text-decoration: none;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .foter .link:hover,
 .foter .link:focus {
@@ -493,9 +503,11 @@ body {
 	align-items: center;
 	border-radius: 50%;
 	background-color: rgba(68, 69, 78, 1);
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foter-icon {
 	fill: var(--primery-bg-color);
+	
 }
 .foter-link:hover,
 .foter-link:focus {
@@ -579,9 +591,13 @@ body {
 .portfolio-link {
 	text-decoration: none;
 	display: block;
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	
 }
 .portfolio-link:hover {
-	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+	0px 4px 4px rgba(0, 0, 0, 0.06), 
+	1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-box {
 	position: relative;
